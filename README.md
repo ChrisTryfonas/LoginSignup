@@ -25,7 +25,7 @@ Tools: html, CSS, PHP, MySQL, phpMyAdmin, WAMP local server.
 
   - If not, then the username is available, the insert query is executed and the user is redirected to a new page (file: “SuccessSignup”). At this page there is a button that redirects user to the homepage (index.php) in order to login after registration.
 
-*The code that executes the query and inserts new user at the table is in file: “registration.php
+*The code that executes the query and inserts new user at the table is in file: “includes/registration.php
 
 
 ### Notes 
