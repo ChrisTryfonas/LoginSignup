@@ -7,7 +7,7 @@ In this repo I built a basic login/signup system that can be integrated to any w
 The system is hosted at my laptop which is set as a local server, using WAMP software. Also I used phpMyAdmin to interract with MySQL, which is my RDBMS.  
 For this project I created a database called "mydatabase" which contains a table called "users" with all the id's, names and the passwords of the enrolled users.
 
-Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
+Tools: html, CSS, PHP, MySQL, phpMyAdmin, WAMP local server.
 
 ### Login 
 1.	The user enters ‘username’ and ‘password’ at index.php form - both required.
