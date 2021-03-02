@@ -35,7 +35,7 @@ Tools: html, CSS, PHP, MySQL, phpMyAdmin, WAMP local server.
 - “style.css” is used to style not only index.php but also the registration.php and validation.php.
 
 
-### Responsiveness demo
+### Responsive design
 ![](images/demo_responsive.png).
 
 
