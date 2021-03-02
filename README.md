@@ -33,5 +33,5 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 
 ### Demo video
 
-![](videos/demo.mp4)
+![demo](videos/demo.mp4)
 
