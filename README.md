@@ -10,24 +10,23 @@ For this project I created a database called "mydatabase" which contains a table
 Tools: html, CSS, PHP, MySQL, phpMyAdmin, WAMP local server.
 
 ### Login 
-1.	The user enters ‘username’ and ‘password’ at index.php form - both required.
+1.	The user enters username and password at index.php form - both required.
 2.	An SQL query is executed to check if **both** of these credentials exist in my database’s table.
   - If yes, it means that the user has already signed up and is redirected to another page (SuccessLogin.php) that shows a message, something like “Welcome username…”.
 
-  -	If not, then - at least at this beginner stage - the user is redirected to the index.php and at the url is encorporated the message “UserNOTFound”.
+  -	If not, then the user is redirected to the index.php and at the url is encorporated the message “UserNOTFound”.
 
-*The code that executes the query and checks if username και password exists at the table is in file: “includes/validation.php”.
+*The code that executes the query and checks if username and password exists at the table, is in file: “includes/validation.php”.
 
 ### Signup
-1.	The user enters ‘username’ and ‘password’ at index.php form- both required.
+1.	The user enters username and password at index.php form- both required.
 2.	Check if the username already exists in the table.
-  -	If yes, it means that this username is already taken the user must type a new one. In that case - at least at this beginner stage- the user is redirected to the index.php and at the url is encorporated the message “This_user_already_exists”.
+  -	If yes, it means that this username is already taken the user must type a new one. In that case the user is redirected to the index.php and at the url is encorporated the message “This_user_already_exists”.
 
   - If not, then the username is available, the insert query is executed and the user is redirected to a new page (file: “SuccessSignup”). At this page there is a button that redirects user to the homepage (index.php) in order to login after registration.
 
-
-
 *The code that executes the query and inserts new user at the table is in file: “registration.php
+
 
 ### Notes 
 - “goback.php” is used to redirect the user from the SuccessSignup.php to Index.php after successful signup and if the return button is clicked.
