@@ -8,9 +8,9 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 ### Login 
 1.	The user enters ‘username’ and ‘password’ at index.php form - both required.
 2.	An SQL query is executed to check if **both** of these credentials exist in my database’s table.
-  i)	If yes, it means that the user has already signed up and is redirected to another page (SuccessLogin.php) that shows a message, something like “Welcome username…”.
+  - If yes, it means that the user has already signed up and is redirected to another page (SuccessLogin.php) that shows a message, something like “Welcome username…”.
 
-  ii)	If not, then - at least at this beginner stage - the user is redirected to the index.php and at the url is encorporated the message “UserNOTFound”.
+  -	If not, then - at least at this beginner stage - the user is redirected to the index.php and at the url is encorporated the message “UserNOTFound”.
 
 *The code that executes the query and checks if username και password exists at the table is in file: “includes/validation.php”.
 
