@@ -17,9 +17,9 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 ### Signup
 1.	The user enters ‘username’ and ‘password’ at index.php form- both required.
 2.	Check if the username already exists in the table.
-  A)	If yes, it means that this username is already taken the user must type a new one. In that case - at least at this beginner stage- the user is redirected to the index.php and at the url is encorporated the message “This_user_already_exists”.
+  -	If yes, it means that this username is already taken the user must type a new one. In that case - at least at this beginner stage- the user is redirected to the index.php and at the url is encorporated the message “This_user_already_exists”.
 
-  B)	If not, then the username is available, the insert query is executed and the user is redirected to a new page (file: “SuccessSignup”). At this page there is a button that redirects user to the homepage (index.php) in order to login after registration.
+  - If not, then the username is available, the insert query is executed and the user is redirected to a new page (file: “SuccessSignup”). At this page there is a button that redirects user to the homepage (index.php) in order to login after registration.
 
 
 
@@ -30,4 +30,8 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 •	“connection.php” is used to establish the connection between php and mysql database.
 •	“registration.php” and “validation.php” are used for inserting a new user and checking if a user already exists respectively.
 •	“style.css” is used to style not only index.php but also the registration.php and validation.php.
+
+### Demo video
+
+https://user-images.githubusercontent.com/75696222/109696909-3e920580-7b96-11eb-9a39-04d87a8a3364.mp4
 
