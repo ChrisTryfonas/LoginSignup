@@ -1,9 +1,10 @@
-## Basics
+### Basics
 In this repo I built a basic login/signup system that can be integrated to any website such as eshop, blog, social media etc.
 The system is hosted at my laptop which is set as a local server, using WAMP software. Also I used phpMyAdmin to interract with MySQL, which is my RDBMS.  
 For this project I created a database called "mydatabase" which contains a table called "users" with all the names and the passwords of the enrolled users.
 
-## Concept
+Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
+
 ### Login 
 1.	The user enters ‘username’ and ‘password’ at index.php form - both required.
 2.	An SQL query is executed to check if **both** of these credentials exist in my database’s table.
@@ -24,7 +25,7 @@ For this project I created a database called "mydatabase" which contains a table
 
 *The code that executes the query and inserts new user at the table is in file: “registration.php
 
-## Notes 
+### Notes 
 •	“goback.php” is used to redirect the user from the SuccessSignup.php to Index.php after successful signup and if the return button is clicked.
 •	“connection.php” is used to establish the connection between php and mysql database.
 •	“registration.php” and “validation.php” are used for inserting a new user and checking if a user already exists respectively.
