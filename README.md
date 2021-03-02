@@ -33,5 +33,5 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 
 ### Demo video
 
-https://user-images.githubusercontent.com/75696222/109696909-3e920580-7b96-11eb-9a39-04d87a8a3364.mp4
+![](videos/demo.mp4)
 
