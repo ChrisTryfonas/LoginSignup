@@ -30,12 +30,14 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 *The code that executes the query and inserts new user at the table is in file: “registration.php
 
 ### Notes 
-•	“goback.php” is used to redirect the user from the SuccessSignup.php to Index.php after successful signup and if the return button is clicked.
-•	“connection.php” is used to establish the connection between php and mysql database.
-•	“registration.php” and “validation.php” are used for inserting a new user and checking if a user already exists respectively.
-•	“style.css” is used to style not only index.php but also the registration.php and validation.php.
+- “goback.php” is used to redirect the user from the SuccessSignup.php to Index.php after successful signup and if the return button is clicked.
+- “connection.php” is used to establish the connection between php and mysql database.
+- “registration.php” and “validation.php” are used for inserting a new user and checking if a user already exists respectively.
+- “style.css” is used to style not only index.php but also the registration.php and validation.php.
 
 
+### Responsiveness demo
+![](images/demo_responsive.png).
 
 
 
