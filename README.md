@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/75696222/109701910-3dfc6d80-7b9c-11eb-
 ### Basics
 In this repo I built a basic login/signup system that can be integrated to any website such as eshop, blog, social media etc.
 The system is hosted at my laptop which is set as a local server, using WAMP software. Also I used phpMyAdmin to interract with MySQL, which is my RDBMS.  
-For this project I created a database called "mydatabase" which contains a table called "users" with all the names and the passwords of the enrolled users.
+For this project I created a database called "mydatabase" which contains a table called "users" with all the id's, names and the passwords of the enrolled users.
 
 Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 
