@@ -1,3 +1,7 @@
+### Demo video
+
+https://user-images.githubusercontent.com/75696222/109701910-3dfc6d80-7b9c-11eb-9720-0f543b61691e.mp4
+
 ### Basics
 In this repo I built a basic login/signup system that can be integrated to any website such as eshop, blog, social media etc.
 The system is hosted at my laptop which is set as a local server, using WAMP software. Also I used phpMyAdmin to interract with MySQL, which is my RDBMS.  
@@ -31,7 +35,8 @@ Tools: html, css, php, mySQL, phpMyAdmin, WAMP local server.
 •	“registration.php” and “validation.php” are used for inserting a new user and checking if a user already exists respectively.
 •	“style.css” is used to style not only index.php but also the registration.php and validation.php.
 
-### Demo video
 
-![demo](videos/demo.mp4)
+
+
+
 
